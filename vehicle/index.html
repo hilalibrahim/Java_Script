@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div style="padding-top: 200px; padding-left: 350px;">
+    <table border="1px solid black">
+        <tr><th style="text-align: center;" colspan="4"> Vehicle data</th></tr>
+        <tr style="background-color: rgb(220, 247, 239);" >
+            <td style="padding-left: 50px; padding-bottom: 50px;">
+                <form>
+                    <a>Car</a><br>
+                <input id="inputbrand" type="text" placeholder="enter brand"><br>
+                <a>price</a><br>
+                <input id="inputprice" type="text" placeholder="enter price"><br>
+                <a>Key</a><br>
+                <input id="inputkey" type="number" placeholder="enter key"><br><br>
+                <button class="btn btn-success text-light" onclick="store()">Store</button>
+
+                </form>
+                
+
+            </td>
+            <td style="padding-left: 100px;">
+                <form>
+                   
+                <a>Enter Key to Retrieve</a><br>
+                <input  id="keyret" type="number" placeholder="enter key to retrieve"><br><br>
+                <button class="btn btn-warning text-light" onclick="retrieve()">Retrieve</button>
+
+                </form>
+                
+<p id="display"></p>
+            </td>
+            <td style="padding-left: 100px; padding-right: 10px;">
+                <form>
+                
+                <a>Enter Key to remove</a><br>
+                <input id="keyremove" type="number" placeholder="enter key to remove"><br><br>
+                <button class="btn btn-danger text-light" onclick="remove()">Remove</button>
+                <button class="btn btn-danger text-light" onclick="clearall()">clear all</button>
+
+
+
+                </form>
+                
+
+            </td>
+
+        </tr>
+        <tr><td><div id="displayData"></div></td>
+            
+        </tr>
+    </table>
+</div>
+
+    
+</body>
+<script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>

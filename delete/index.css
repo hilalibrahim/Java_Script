@@ -1,0 +1,11 @@
+table {
+    border:solid rgb(161, 150, 177) 10px;
+    background-color: rgb(179, 179, 135);
+}
+td{
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    text-align: center;
+}
